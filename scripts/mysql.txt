@@ -1,0 +1,3 @@
+create database vsbt;
+create user 'vsbt'@'localhost' identified by 'vsbt';
+grant all privileges on vsbt.* to 'vsbt'@'localhost' with grant option;
